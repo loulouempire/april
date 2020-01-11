@@ -1,0 +1,150 @@
+header{
+background:#fff!important;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 900;
+}
+::-webkit-scrollbar {
+    display: none!important;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu-btn{
+  position: absolute;
+  left: 10px;
+  z-index: 100;
+  font-size: 35px!important;
+}
+.logo-hd{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: #fff;
+}
+header img{
+  width: 100px;
+  display: inline-block;
+}
+.social-media{
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  padding: 10px;
+  margin-right: 20px;
+}
+.mvLn{
+  top: 27px!important;
+}
+body{
+  background: #fff;
+}
+
+.fl-arrow{
+  display: none!important;
+  position: absolute;
+  margin-top: 220px;
+  font-size: 30px!important;
+  color: grey;
+}
+.lf{
+  left: 0;
+}
+.rg{
+  right: 0;
+}
+
+img{
+  width: 100%;
+}
+.loulou-logo{
+  font-size: 120%;
+  text-align: center;
+}
+.loulou-logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+
+.slider-container{
+  padding: 20px 0;
+  margin-top: 100px;
+}
+.slider-container .centerize{
+  width: 90%;
+  overflow: hidden;
+}
+.slider-img img{
+  width: auto;
+  height: 300px;
+}
+.nav-box{
+  padding: 10px 1%;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+.nav-pd{
+  position: relative;
+  width: 24.5%;
+  height: 360px;
+  background: red;
+  float: left;
+  overflow: hidden;
+}
+.nav-pd-dark{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.nav-pd-name{
+  color: #fff;
+  font-size: 120%;
+  width: 100%;
+  text-align: center;
+}
+.fc-title{
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+.fc-title hr{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.prd{
+  width: 50%;
+}
+.prd-name{
+  width: 100%;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.getonthelist{
+  text-align: center;
+}
+.email-input{
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 3px 22px;
+  font-size: 17px;
+}
+.send-btn{
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+}

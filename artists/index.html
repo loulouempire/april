@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ARTIST | LOULOU EMPIRE</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/home-responsive.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Girassol|Karla|Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body>
+    <div class="nb-container">
+      <div class="navigation">
+        <i class="fa fa-remove closeMenuBtn" onclick="removeMenu()"></i>
+        <ul class="txt-2">
+          <li class="sign-up txt-1"><a href="#">SIGN UP NOW</a> <i class="fa fa-envelope-o"></i> </li>
+          <li class="home-link-li"><a class="nav-link home-link gotoHome">HOME</a></li>
+          <li class="about-link-li"><a class="nav-link about-link gotoAbout">ABOUT</a></li>
+          <li class="news-link-li"><a class="nav-link news-link gotoNews">NEWS</a></li>
+          <li class="music-link-li"><a class="nav-link music-link gotoMusic">MUSIC</a></li>
+          <li class="artist-link-li afterHoverEffect"><a class="nav-link artist-link gotoArtist">ARTIST</a></li>
+          <li class="partner-link-li"><a class="nav-link partner-link gotoStore">STORE</a></li>
+        </ul>
+        <div class="social-links">
+          <a class="fa fa-facebook"></a>
+          <a class="fa fa-twitter"></a>
+          <a class="fa fa-instagram"></a>
+          <a class="fa fa-youtube"></a>
+          <a class="fa fa-soundcloud"></a>
+        </div>
+      </div>
+
+      <!-- WARNING: ACTUAL PAGE CONTENT -->
+      <div class="home-page-container">
+          <header>
+            <div class="logo-box">
+            <img src="img/logo-w.png">
+            </div>
+            <hr>
+          </header>
+          <div class="menu-box">
+            <i class="menu-btn material-icons" onclick="openMenu()">menu</i>
+          </div>
+
+          <!-- WARNING: ARTIST PAGE CONTENT SECTION -->
+          <div class="artist-page-container">
+            <div class="artist-box" style="background-image: url(img/amonwest.jpg)">
+              <div class="dark-tint"></div>
+              <div class="artist-name centerize txt7" onclick="openAmonWest()">AMON WEST</div>
+            </div>
+          </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/responsive.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+
+    <script type="text/javascript">
+      $('.gotoHome').click(function(){
+         window.location.href='../';
+      });
+      $('.gotoAbout').click(function(){
+         window.location.href='../about/';
+      });
+      $('.gotoArtist').click(function(){
+         window.location.href='../artists/';
+      });
+      $('.gotoStore').click(function(){
+         window.location.href='../store/';
+      });
+      $('.gotoAbout').click(function(){
+         window.location.href='../about/';
+      });
+      $('.gotoNews').click(function(){
+         window.location.href='../news/';
+      });
+      $('.gotoMusic').click(function(){
+         window.location.href='../music/';
+      });
+    </script>
+  </body>
+</html>

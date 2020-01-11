@@ -1,0 +1,187 @@
+  html, body{
+  height: 100%;
+}
+::-webkit-scrollbar {
+    display: none!important;
+}
+.fullWidth{
+  width: 100%!important;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.txt-1{
+  font-family: 'Girassol', cursive;
+}
+.txt-2{
+  font-family: 'Varela Round', sans-serif;
+}
+.txt-3{
+  font-family: 'Karla', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #cccccc;
+}
+.nb-container{
+  position: relative;
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  color: inherit;
+}
+.navigation{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 50;
+}
+.nav-link{
+  cursor: pointer;
+}
+.closeMenuBtn{
+  position: absolute;
+  top: 20px;
+  font-size: 25px!important;
+  right: 20px;
+  color: red;
+  display: block;
+}
+.appearZI{
+  z-index: 1000;
+}
+.sign-up{
+  padding: 30px 0;
+  color: #fff;
+}
+.sign-up a{
+  padding-right: 25px;
+}
+.sign-up a:hover{
+  color: #ff4242;
+  transition: 0.5s;
+}
+ul li{
+  padding: 8px 0;
+}
+ul li a{
+  padding-left: 20px;
+}
+.afterHoverEffect{
+    background: #ff4242; /* COMBAK: CHANGE THIS TO THE RIGHT COLOR */
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    color: #000!important;
+}
+.navigation{
+
+}
+
+
+/* WARNING: HOME PAGE */
+.home-page-container{
+  background: #363636;
+  position: absolute!important;
+  width: 80%;
+  height: 100%;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+header{
+  position: relative;
+  background: #000;
+  height: 20%;
+}
+header hr{
+  height: 5px;
+  width: 100%;
+  background: #ff4242;
+  position: absolute;
+  bottom: 0;
+  border: none;
+}
+header .logo-box{
+  text-align: center;
+  background: #000;
+  width: 150px;
+  height: 96px;
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  top: 12px;
+  border-radius: 20px;
+}
+.logo-box img{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.menu-box{
+  background: #000;
+  color: #fff;
+  display: none;
+}
+.menu-btn{
+  font-size: 40px!important;
+  color: #cccccc;
+}
+
+.social-links{
+  margin-top: 8%;
+  padding-left: 10px;
+}
+.social-links a{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 110%;
+}
+
+
+/* WARNING: ARTIST PAGE SECTION */
+.amonwest-img{
+  width: 85%;
+  margin: auto;
+  height: 500px;
+  overflow: hidden;
+}
+.amonwest-img img{
+  width: 100%;
+}
+.info-amonwest{
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 120%;
+  color: #fff;
+}
+.info-amonwest p{
+  margin-bottom: 20px;
+}
+.amonwest-social{
+  text-align: center;
+  color: #ff4242;
+}
+
+@media screen and (max-width: 400px)
+and (min-width: 0){
+  .instagram-box{
+    width: 100%;
+  }
+}
+.instagram-box{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
